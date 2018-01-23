@@ -5,7 +5,7 @@ let codearray = [];
 function init() {
   document.body.addEventListener('keydown', function(e) {
     for (let i = 0, l = code.length; i < l; i++) {
-      codearray.push(e.which);}
+      codearray.push(parseInt(e.which));}
 
       if (codearray === code) {alert('Congratuations! You entered the Konami Code!')}
   })
