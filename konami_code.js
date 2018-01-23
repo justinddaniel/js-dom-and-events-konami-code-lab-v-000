@@ -7,6 +7,6 @@ function init() {
     for (let i = 0, l = code.length; i < l; i++) {
       codearray.push(parseInt(e.which));}
 
-      if (codearray[4] === code[4]) {alert('Congratuations! You entered the Konami Code!')}
+      if (codearray === code) {alert('Congratuations! You entered the Konami Code!')}
   })
 }
